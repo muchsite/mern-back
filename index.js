@@ -12,7 +12,7 @@ app.use(express.json());
 dotenv.config();
 app.use(
   cores({
-    origin: ["https://muchsite-mern-app.onrender.com/"],
+    origin: ["https://muchsite-mern-app-api.onrender.com"],
   })
 );
 const connect = async (req, res, next) => {
